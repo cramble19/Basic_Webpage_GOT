@@ -1,0 +1,148 @@
+
+body{
+  text-align: center;
+  font-family: 'Montserraat', sans-serif;
+  color: #FFFFFF;
+  overflow: hidden;
+height: 100vh;
+}
+.fullbody{
+  text-align: center;
+margin: auto;
+padding: 0;
+  width: 100%;
+  height: 100%;
+
+overflow-y: scroll;
+scroll-behavior: smooth;
+}
+
+section{
+
+
+}
+#top-section{
+
+  background-image: url("images/westeros_bigmap.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 15%;
+
+    /* position: relative;
+    z-index: -1;
+    filter: blur(1px); */
+
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+
+
+}
+h2{
+  font-weight: 800;
+  margin-bottom: 3%;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+
+}
+h4{
+  font-size: 1.4rem;
+  padding-top: 6%;
+}
+p{
+line-height: 2;
+
+}
+img{
+  width: 30%;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.row{
+  margin-top: 10%;
+  padding-top: 3%;
+}
+
+
+hr{
+
+border-style: none;
+border-top-style: dotted;
+border-width: 1rem;
+width: 5%;
+height: 0;
+margin: auto;
+border-color: #C8C2D5;
+
+  margin-top: 15%;
+margin-bottom: 0;
+}
+/* Nav Bar */
+.blur{
+/* position: fixed;
+z-index:1;
+filter: blur(1px);
+-webkit-filter: blur(1px); */
+}
+nav{
+/* opacity: 0.2; */
+
+}
+.nav-brand{
+  text-align: left;
+padding-right: 0 !important;
+margin-right: 0 !important;
+margin-left: 5%;
+margin-top: 1%;
+}
+.nav-item{
+padding: 0 2rem;
+}
+.nav-link{
+  color: #FFFFFF !important;
+}
+.nav-link:hover{
+  color: #75658C !important;
+}
+.welcum_title{
+  padding: 500px 0;
+}
+/* Story Section */
+#story{
+  background: #E2DCE8;
+  padding: 10% 10%;
+  padding-bottom: 0;
+  color: #58574E;
+text-align: center;}
+
+.d-block{
+  width: 100%;
+}
+
+#story:hover{
+  /* background-color: #EEE8BE; */
+}
+#characters{
+  background: #1E1D20;
+  padding: 10% 10%;
+}
+#characters:hover{
+  /* background-color: #1E1D20; */
+}
+/* Character */
+.charac{
+padding: 5% 3%;
+}
+.charac_img{
+  width: 80%;
+}
+#carouselExampleSlidesOnly{
+  text-align: center;
+  margin: 9% 15%;
+}
